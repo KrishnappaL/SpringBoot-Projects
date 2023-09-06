@@ -1,0 +1,267 @@
+*{
+padding:0;
+margin:0;
+font-family:sans-serif;
+box-sizing:border-box;
+}
+.hero{
+height:100vh;
+width:100%;
+background-image:url("flower.webp");
+background-size:cover;
+background-position:center;
+}
+nav {
+display:flex;
+align-items:center;
+padding-left:10%;
+padding-right:10%;
+}
+nav ul
+{
+display:flex;
+}
+nav ul li {
+padding:10px 20px;
+}
+span {
+color:brown;
+}
+nav ul li a {
+color:red;
+font-weight:bold;
+text-decoration:none;
+}
+nav ul li a:hover
+{
+color:green;
+transition:1s;
+}
+.btn {
+background-color:white;
+font-weight:medium;
+border-radius:40px;
+text-decoration:none;
+}
+.btn_talk {
+background-color:red;
+font-weight:medium;
+border-radius:30px;
+text-decoration:none;
+}
+.btn_talk:hover
+{
+background-color:transparent;
+border:2px solid red;
+cursor:pointer;
+
+}
+.btn:hover 
+{
+transform:scale(1.1);
+}
+.content{
+top:100;
+left:20;
+position:absolute;
+transform:translate(50%,50%);
+}
+h4{
+color:orange;
+font-size:10px;
+margin-bottom:20px;
+}
+h2{
+color:purple;
+
+}
+h3{
+color:black;
+}
+.subscribe form input:first-child{
+display:inline-block;
+width:100%;
+padding:10px 120px 13px 12px;
+border:3px solid red;
+border-radius:25px;
+}
+.subscribe form input:last-child{
+display:inline-block;
+padding:10px 20px;
+margin:1px;
+border:none;
+background-color:red;
+color:black;
+top:88px;
+right:7px;
+border-radius:40px;
+position:absolute;
+box-shadow:0px 0px 10px black;
+}
+.about_me {
+width:100%;
+padding:100px 0px;
+background-color:black;
+}
+.about_me img{
+height:auto;
+width:400px;
+}
+.about_content
+{
+color:white;
+margin-left:40px;
+}
+.main
+{
+display:flex;
+}
+.about_content h3{
+color:white;
+font-size:50px;
+}
+.about_content h5{
+color:white;
+font-size:30px;
+letter-spacing:3px;
+}
+.about_content p{
+color:white;
+font-size:15px;
+letter-spacing:3px;
+}
+.skills
+{
+background:black;
+width:100%;
+}
+	.title h2{
+	color:white;
+	font-size:60px;
+	text-align:center;
+	}
+.box
+{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+	.card{
+	height:300px;
+	width:270px;
+	background:gray;
+	border-radius:25px;
+	margin:12px;
+	}
+.card h4{
+text-align:center;
+font-size:20px;
+letter-spacing:2px;
+margin-top:20px;
+}
+.para p{
+color:pink;
+font-size:13px;
+line-height:30px;
+margin-bottom:40px;
+margin-top:40px;
+}
+	.para .button{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+	border-radius:30px;
+	padding:10px 20px;
+	transition:4s;
+	}
+.card i{
+color:red;
+font-size:40px;
+text-align:center;
+margin:15px 0px;
+display:block;
+}
+.para .button:hover
+{
+background-color:transparent;
+border:2px solid red;
+cursor:pointer;
+}
+.Hire .button{
+	background-color:red;
+	color:white;
+	text-decoration:none;
+	border-radius:30px;
+	padding:10px 20px;
+	margin-left:40%;
+	transition:5s
+	
+	}
+.Hire{
+width:100%;
+height:200px;
+align-items:center;
+background-color:#121212;
+justify-content:center;
+display:flex;
+}
+.Hire h3{
+font-size:30px;
+color:white;
+}
+	.footer{
+	width:100%;
+
+	background-color:#121212;
+	justify-content:center;
+}
+
+.Hire .button:hover
+{
+background-color:transparent;
+border:2px solid red;
+cursor:pointer;
+
+}
+.footer .author{
+font-size:25px;
+color:white;
+font-weight:bold;
+margin-left:50%;
+}
+.footer .reach{
+font-size:15px;
+color:white;
+font-weight:bold;
+margin-left:50%;
+}
+.footer .social-media a {
+width:40px;
+height:40px;display:flex;
+text-decoration:none;
+background:red;
+border-radius:50%;
+color:white;
+align-items:center;
+justify-content:center;
+margin:20px 10px;
+display:inline-flex;
+font-size:22px;
+margin-left:33%;
+}
+.footer .social-media a:hover{
+background-color:transparent;
+border:2px solid red;
+cursor:pointer;
+transform:scale(1,1);
+transition:2s;
+}
+.footer .copy{
+font-size:15px;
+color:white;
+font-weight:bold;
+margin-left:50%;
+}
+
+
+
