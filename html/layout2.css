@@ -1,0 +1,202 @@
+
+.carrom-frame{
+
+border:30px solid brown;
+height:500px;
+width:500px;
+border-radius:20px;
+position:absolute;
+top:50%; left:50%;
+transform:translate(-50%,-50%);
+background-color:coral;
+}
+
+.pockets{
+height:50px;
+width:50px;
+background:black;
+position:absolute;
+border-radius:50%;
+}
+.p1
+{
+top:0;
+left:0;
+}
+.p2{
+top:0;
+right:0;
+}
+.p3{
+bottom:0;
+right:0;
+}
+.p4{
+bottom:0;
+left:0;
+}
+
+.base{
+border:3px solid black;
+position:absolute;
+transform:translate(-50%,-50%);
+border-radius:8px;
+}
+.top-base{
+height:6.5%;
+width:75%;
+top:14%;
+left:50%;
+border-bottom:1.5px solid black;
+}
+.right-base{
+height:64%;
+width:6.5%;
+top:50%;
+right:2%;
+border-radius:6px;
+border-left:1.5px solid black;
+}
+.bottom-base{
+height:6.5%;
+width:75%;
+bottom:6%;
+left:50%;
+border-top:1.5px solid black;
+}
+.left-base{
+height:64%;
+width:6.5%;
+top:50%;
+left:10%;
+border-radius:6px;
+border-right:1.5px solid black;
+}
+.red-circle{
+height:35px;
+width:35px;
+background:red;
+position:absolute;
+border-radius:50%;
+margin:-2px -5px;
+}
+.c1{
+top:-1;
+left:0;
+}
+.c2{
+top:0;
+right:0;
+}
+.c3{
+top:0;
+right:2;
+}
+.c4{
+bottom:0;
+right:2;
+}
+.c5{
+bottom:-1;
+left:0;
+}
+.c6{
+bottom:0;
+right:0;
+}
+.c7{
+top:0;
+left:2;
+}
+.c8{
+bottom:0;
+left:2;
+}
+.outline{
+height:35px;
+width:35px;
+border:3px solid black;
+position:absolute;
+border-radius:50%;
+}
+.outline-1{
+top:-4px;
+left:-7px;
+}
+.outline-2{
+top:-4px;
+right:-7px;
+}
+.outline-3{
+top:-4px;
+left:-7px;
+margin:-2px 3px;
+}
+.outline-4{
+bottom:-4px;
+left:-7px;
+margin:-2px 3px;
+}
+.outline-5{
+bottom:-4px;
+left:-7px;
+}
+.outline-6{
+bottom:-4px;
+right:-7px;
+}
+.outline-7{
+top:-4px;
+left:-7px;
+margin:-2px 3px;
+}
+.outline-8{
+bottom:-4px;
+left:-7px;
+margin:-2px 3px;
+}
+.corners{
+height:70px;
+width:70px;
+border:12px solid brown;
+position:absolute;
+transform:translate(-50%,-50%);
+}
+.cor1{
+border-right:0px;
+border-bottom:0px;
+border-radius:50% 0 0 0;
+
+top:5.5%;
+left:5.7%;
+}
+.cor2{
+border-left:0px;
+border-bottom:0px;
+border-radius:0 50% 0 0;
+top:5.5%;
+right:-10.5%;
+}
+.cor3{
+border-left:0px;
+border-top:0px;
+border-radius:0 0 50% 0;
+bottom:-11%;
+right:-10.5%;
+}
+.cor4{
+border-right:0px;
+border-top:0px;
+border-radius:0 0 0 50%;
+bottom:-11%;
+left:5.7%;
+}
+.img{
+transform:translate(-25%,-40%);
+position:absolute;
+top:45%; left:40%;color:coral;
+}
+
+
+
+
