@@ -1,0 +1,23 @@
+<html>
+<style>
+	h2{color:blue; font-size:35px;}
+	input{width:40%; height:40px;}
+	button{width:40%; height:40px;
+	background-color:blue; color:white; font-size:22px;}
+	body{background-color:red;}
+	</style>
+	<body id="b1">
+	<h2 id="h2">Refresh,auto refresh and redirect the webpage</h2>
+	<input id="i1" placeholder="assign to refersh"><br> <br>
+	<button onclick="refresh()">click</button>
+	<script>
+	function refresh(){
+	
+	time=document.getElementById("i1").value;
+	time=pareseInt(time);
+		setTimeout("location.reload(true)",time81000);
+		console.log(window.location.href);
+		}
+	</script>
+	</body>
+	</html>

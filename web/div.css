@@ -1,0 +1,4 @@
+div {width:60%; height:10%; border:2px solid red; margin:25px; padding:25px;}
+body{background-color:orange; background-image:url("linux.jpeg"); background-repeat:no-repeat; background-position:center top;}
+div{ color:white;background-image:url("rabbit.jpeg"); background-repeat:repeat-x;}
+

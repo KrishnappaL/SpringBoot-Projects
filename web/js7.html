@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" href="css2.css>
+</head>
+<body>
+<h2>Changing html style using javascript dom css</h2>
+<div id="mydiv">
+<input placeholder="enter first name"> <br> <br>
+<input placeholder="enter mobile no"> <br> <br>
+<input placeholder="enter  age"> <br> <br>
+<button onclick="checks()"> submit</button>
+		<p>	</p> <p> </p> <p>	</p>
+		</div>
+		<script>
+		function checks(){
+		area=document.getElementById("mydiv");
+		box=area.getElementsByTagName("input");
+		data=document.getElementsByTagName("p");
+		for(i=0;i<box.length;i++){
+		data[i].innerHTML=box[i].value;
+		}
+		}
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+div{
+margin:auto; 
+width:600px;
+height:auto;
+}
+h2 {
+color:green;
+}
+p{
+color:blue;
+font-size:18px;
+}
+button{
+width:100%;
+height:40px;
+font-size:18px;
+background-color:blue;
+color:white;
+}
+</style>
+</head>
+<body>
+<h2>Select by tag name</h2>
+<div>
+<input placeholder="enter first name"> <br> <br>
+<input placeholder="enter last name"> <br> <br>
+<input placeholder="enter country name"> <br> <br>
+<button onClick="checks()"> submit</button>
+<p>   	 </p>
+<p>		</p>
+<p>		</p>
+</div>
+<script>
+function checks()
+{
+box=document.getElementsByTagName("input");
+data=document.getElementsByTagName("p");
+
+for( i=0;i<box.length;i++){
+data[i].innerHTML=box[i].value;
+console.log(i);
+}
+</script>
+</body>
+</html>	
