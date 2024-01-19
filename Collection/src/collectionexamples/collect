@@ -1,0 +1,19 @@
+clone()-->we can't clone all objects. for ex- Actor chiranjeevi =new Actor(); if i want same feature to other object loke rajani then we clone,
+like,Actor rajani=chiranjeevi;
+but we can't clone all objects when we want the same features to other one then we do.
+Cloneable,File,Closable  is a interface.
+clone-copy
+Object class methods-->clone(),equals(),hashcode()-->using hash algorithm to create hashcode,getClass(),teString()
+
+Compare object properties/activities , not objects compare.
+We can't override a final methods
+String literals-->creating object without new
+hashcode is unique ,compare depends on hashcode and equal method.
+equal method takes hashcode to compare
+toString() help to print a object
+hashcode is same for string variable because String is immutable.
+StringBuffer over comes String drawback.In string every time hashcode is created so memory is wasted.
+Stringbuffer is mutable-->so edited in same memory .The memory is not wasted
+StringBuffer refer different memory and String refer same memory
+StringBuilder using multithreading
+StringBuffers are not use multithreaded.

@@ -1,0 +1,90 @@
+Collection-improve performance,Reducing programming effert by providing data structure
+container in java-->Array,class,collection(store,retrive,order-->manipulate)
+Implementation->class
+
+
+Inheritance-->child behave as Parent Object
+Object class-->parent for all class or base class for all ,act as super class
+Object is a tree structure it have all the knowledge of OOP
+Object properties have all the child objects
+add() method return type is boolean
+Every class is a Data Type? yes, dataype and class is a container
+Class=Container
+Datatype=container
+So,class=datatype
+but datatype is primitive i,e variable is represent by datatype
+Every class is non-primitive datatype ,object or datatype) represent class
+Array is Type safety but arrayList not a type safety
+
+
+ArrayList				Array
+*Dynamic memory      *Fixed memory
+*use []				 *use comma and newline
+
+Collection framework
+*These are data structure and algorithm==>data structure store data and algorithm help to take/retrive data
+*collection provide --> Interface and class for Data structure 
+List-->maintains insertion order,Allows duplicate objects ex-grocery list
+Set-->No order maintains,No duplicate Objects ex-play cards
+Map-->Collection of Key-value pair  There is a chance of duplicate value but not duplicate key.ex-menu list ,exam schedule
+key is unique and value is duplicate or not
+
+Interface-->List,Set,Map ==>All have rules
+Implementation(class)-->Implements interface using class
+List(Interface) Implemented using ArrayList(It is a class),LinkedList
+List extends Collection==>Both are Interface
+
+Collections Framework
+1.Iterable interface-->Collection interface-->List,set ,Queue Interfaces
+	List interface-->AraayList class,LinkedList class.
+		ArrayList        			 		Array					LinkedList-->store data in background 
+	* Dynamic memory(background	storage)	Static memory						using single and double linked list
+	*Growable length						Fixed Length
+	*continious memory						continious memory
+	*easy traversal,retrival										tough traversal,retrival
+	*Tough insertion,deletion(manipulation)							easy insertion,deletion
+
+
+
+
+Set -->HashSet,LinkedHashSet classes
+		Sorted set interface--->TreeSet class
+*HashSet class->using hashcode check the object is already present or not,How?--->Every object have different hashcode
+HashCode have hashing algorithm so no duplicates allowed
+
+HashSet											LinkedHashSet
+*no order maintained							insertion  order maintained
+*No Duplicates									No Duplicates
+*uses Hashing algorithm							Uses doubly linked list + Hashing algorithm
+
+TreeSet-->store homogeneous elements(Objects),also called red/black tree ,implements Navigable Set interface and extends Abstract Set class
+ClassCastException  ->differnt datatype
+TreeSet provide ascending order
+
+Collection-->Framework
+Collections-->class
+
+Map:key-value pair
+keys-->keyset
+values->collection
+number of key-value pairs ==>Set(no duplicate)
+Entry=key-value pair
+map=Entry
+number of Entrys-->Entry Set
+Entry-->inner interfac==>Without Map interface ,Entry interface not exist
+subinterface-->extends interface
+
+Map-->HashMap,LinkedHashMap
+
+
+
+
+
+
+
+
+
+
+
+
+
