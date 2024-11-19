@@ -1,0 +1,19 @@
+package interviewcoding;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		int[] prices= {1,3,8,4,5};
+		Solution s=new Solution();
+		s.maxProfit(prices);
+	}
+	    public int maxProfit(int[] prices) {
+	        int sum=0;
+	        for(int i=0;i<prices.length-1;i++){
+	            if(prices[i]<prices[i+1])
+	                sum=sum+prices[i+1]-prices[i];
+	        }
+	        return sum;
+	    }
+	}
+
