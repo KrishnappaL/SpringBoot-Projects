@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http:www.thymeleaf.org">
+	<head>
+		<title>TODO List</title>
+	</head>
+	<body>
+		<h2>TODO List </h2>
+		<form action="/todo/add" method="post"> 
+		<input type="text" name="task" required placeholder="Enter task">
+		<button type="submit">add</button>
+		</form>
+		<!-- Displaying all todo tasks-->
+		<ul>
+			<li th:each = "task, iterStat:${tasks}">
+				<span th:text="${task}"> </span>
+				<!-- delete todo item-->
+				<form action="/todo/delete" method="post"> 
+				<input type="hidden" name="index" th:value="${iterStat.index}">
+				<button type="submit">delete</button>
+				</form>
+			</li>
+		</ul>
+		<form action="/todo/delete_all" method="post">
+			<button type="submit">delete all</button>
+		</form>
+	</body>
+</html>
