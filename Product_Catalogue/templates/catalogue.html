@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+	<head>
+		<style>
+		h2{
+			text-align:center;
+		}	
+		div{
+			display:inline-block;
+			text-align: center;
+		}
+		img{
+			width: auto;
+			height: auto;
+		}
+		</style>
+	</head>
+	<body>
+		<h2>Product Catalogue</h2>
+		<div th:each="product : ${products}">
+			<img th:src="${product.image_url}">
+			<h3 th:text="${product.name}"></h3>
+			<h4 th:text="${product.description}"></h4>
+			<strong th:text="${product.price}"></strong>
+		</div>
+	</body>
+</html>
