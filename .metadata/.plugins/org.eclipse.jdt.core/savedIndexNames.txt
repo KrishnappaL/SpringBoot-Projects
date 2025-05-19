@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+/home/lakshmi/Documents/workspace-spring-tool-suite-4-4.25.0.RELEASE/.metadata/.plugins/org.eclipse.jdt.core
-934512243.index
-1865797976.index
-1276033312.index
-2653750292.index

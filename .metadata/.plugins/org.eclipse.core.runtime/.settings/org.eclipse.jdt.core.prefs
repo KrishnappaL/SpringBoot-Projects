@@ -1,9 +1,0 @@
-eclipse.preferences.version=1
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=/home/lakshmi/Downloads/spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-linux.gtk.x86_64/sts-4.25.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.4.v20240802-1551/jre/lib/jrt-fs.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=/home/lakshmi/Downloads/spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-linux.gtk.x86_64/sts-4.25.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.4.v20240802-1551/jre/lib/src.zip
-org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
-org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
-org.eclipse.jdt.core.compiler.codegen.targetPlatform=21
-org.eclipse.jdt.core.compiler.compliance=21
-org.eclipse.jdt.core.compiler.release=enabled
-org.eclipse.jdt.core.compiler.source=21
